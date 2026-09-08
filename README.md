@@ -9,7 +9,7 @@ trip required).
 - Pantry management: add, edit, delete ingredients (name, quantity, unit, optional expiry date)
 - Pantry list screen (RecyclerView + custom adapter)
 - 18 seeded recipes, each with required ingredients and preparation steps
-- Suggested Recipes screen: strict-matching logic — a recipe is only shown
+- Suggested Recipes screen: strict-matching logic, a recipe is only shown
   if 100% of its ingredients (in sufficient quantity) are in the pantry
 - Recipe detail screen with full ingredient list and method
 - Settings screen: expiring-soon alert toggle, unit preference
@@ -18,7 +18,7 @@ trip required).
 ## Database choice: SQLite
 SQLite (via `SQLiteOpenHelper`) was chosen because the app's data
 (pantry items + a fixed recipe catalogue) is simple, relational, and fully
-local — there's no need for cloud sync or a backend server for a
+local there's no need for cloud sync or a backend server for a
 single-user offline pantry tracker. It also matches the on-device
 persistent-storage approach covered in the module.
 
@@ -40,11 +40,11 @@ app/src/main/java/com/example/smartpantry/
 1. Open Android Studio → **Open** → select the `SmartPantryManager` folder.
 2. Let Gradle sync (first sync may take a few minutes, needs internet).
 3. Connect a device or start an emulator (API 24+).
-4. Click **Run** — the app installs and launches on the Pantry List screen.
+4. Click **Run**: the app installs and launches on the Pantry List screen.
 5. Tap **+** to add ingredients; tap the Recipes tab to see what you can cook.
 
 ## Known limitations / possible improvements
 - Matching normalization is naive-rule-based rather than full NLP; very
   irregular plurals not in the small lookup table won't normalize automatically.
-- No "Almost There" (missing 1 ingredient) list yet — noted as an optional
+- No "Almost There" (missing 1 ingredient) list yet, noted as an optional
   stretch goal in the brief.
