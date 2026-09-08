@@ -40,7 +40,7 @@ app/src/main/java/com/example/smartpantry/
 1. Open Android Studio → **Open** → select the `SmartPantryManager` folder.
 2. Let Gradle sync (first sync may take a few minutes, needs internet).
 3. Connect a device or start an emulator (API 24+).
-4. Click **Run ▶** — the app installs and launches on the Pantry List screen.
+4. Click **Run** — the app installs and launches on the Pantry List screen.
 5. Tap **+** to add ingredients; tap the Recipes tab to see what you can cook.
 
 ## Known limitations / possible improvements
