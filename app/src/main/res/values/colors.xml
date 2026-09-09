@@ -1,8 +1,8 @@
 <resources>
-    <color name="primary">#2E7D32</color>
-    <color name="primary_dark">#1B5E20</color>
-    <color name="accent">#FF8F00</color>
-    <color name="background">#FAFAFA</color>
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <color name="primary">#5D7A91</color>
+    <color name="primary_dark">#435868</color>
+    <color name="accent">#D9C7A3</color>
+    <color name="background">#F6F2EC</color>
+    <color name="text_primary">#2E2E2E</color>
+    <color name="text_secondary">#6E6E6E</color>
 </resources>
